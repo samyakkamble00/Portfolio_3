@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(60, 28, 90);
+    font-family: "Roboto",sans-serif;
+    color: white;
+    margin: 0;    
+}
+#player{
+    position: fixed;
+    height: auto;
+    width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    height: 100%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+.navbar .logo{
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform:uppercase;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+.navbar ul li{
+    font-weight: 300;
+}
+.navbar ul li .icon{
+    line-height: 0.9;
+    font-weight: 300;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.headline{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    padding-bottom: 100px;
+}
+.headline h2{
+    font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 16px 0;
+    max-width: 515px;
+}
+.headline p{
+    font-weight: 300;
+    line-height: 1.5;
+    max-width: 515px;
+}
+.headline .buttons{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 25px;
+}
+.headline .buttons a.get-started{
+    padding: 12px 24px;
+    border: 3px solid rgb(94, 30, 30);
+    border-radius: 0 15px;
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+}
+.proj{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    padding-left: 20px;
+}
